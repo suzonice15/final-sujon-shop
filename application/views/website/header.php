@@ -84,6 +84,24 @@ foreach ($this->cart->contents() as $key => $val) {
     <!--        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>-->
     <link rel="stylesheet" type="text/css" href="<?= base_url() ?>assets/fontend/css/lightslider.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '2473529499630097');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=2473529499630097&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
 
     <script>
         if (typeof visitorId == 'undefined') {
@@ -212,7 +230,7 @@ foreach ($this->cart->contents() as $key => $val) {
                         autocomplete="off" spellcheck="false" name="q"/>
 
                     
-                <button type="submit" class="srch_action btn orange">Search</button>
+                <button type="submit" class="srch_action btn info">Search</button>
             </form>
 
 
@@ -228,9 +246,9 @@ foreach ($this->cart->contents() as $key => $val) {
 
         <div style="position: relative;left: 60%;top: -45px;font-size: 26px;">
             <img  style="display: initial;" width="50" src="<?php echo base_url()?>images/call.gif">
-            <?= get_option('phone') ?>&nbsp;Account<a style="text-decoration: none;
+            <?= get_option('phone') ?>&nbsp;<a style="text-align: center;text-decoration: none;color: black;padding-left: 14px;" href="<?php echo base_url()?>affiliate/login_signup">Login</a><a style="text-decoration: none;
 background-color:
-red;
+#28A745;
 font-size: 16px;
 padding: 8px 5px;
 color:
@@ -480,7 +498,7 @@ padding: 8px 1px;" href="JavaScript:Void(0);"
                 <?php }  else { ?>
                 <!-- End Level one -->
 
-                <li   class="nav-item"><a style="color: white;" href="<?php echo $link_parent;?>" class="nav-link"><?php echo $parentCategory->category_title; ?></a></li>
+                <li   class="nav-item"><a style="color: white;" href="<?php echo $link_parent;?>" id="dropdownMenu1" class="nav-link  "><?php echo $parentCategory->category_title; ?></a></li>
                 <?php }  } ?>
 
             </ul>

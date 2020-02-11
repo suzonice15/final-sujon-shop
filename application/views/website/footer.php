@@ -31,7 +31,7 @@
         right: -27px;
         transition: background-color .3s;
         z-index: 1000;
-        opacity: 0.3;
+      
     }
 
     #button_move_to_top::after {
@@ -96,16 +96,10 @@ line-height: inherit;" href="<?php echo base_url() ?>pages/buy">How to buy</a>
         </div>
         <div class="col-md-3 col-lg-3 col-6">
             <h5>
-                Newsletter
+                Payment method
             </h5>
-            <h6 style="font-size: 15px;color:white" > Subscribe to get hot discount</h6>
 
-            <form id="newsletter" method="post">
-<input type="text"  class="form-control" style="background-color: #e9f6f7" name="footer_newsletter_email"   id="footer_newsletter_email">
-                <h5 id="message_email_sub"></h5>
-<button type="button"  id="subscribe_id" class="button " style="margin-top: 15px;background-color:red;width:190px;color:white">Subscribe
- </button>
-            </form>
+            <img src="<?php echo base_url()?>images/payment.jpg">
         </div>
     </div>
 
@@ -239,7 +233,7 @@ line-height: inherit;" href="<?php echo base_url() ?>pages/buy">How to buy</a>
     ?>
     <a href="<?php echo base_url() ?>cart" style="text-decoration: none">
 
-        <div style="background-color: #24A2B4;height: 44px;text-align: right;color: white;width: 70px;opacity: 0.7;">
+        <div style="background-color: #28A745;height: 44px;text-align: right;color: white;width: 70px;opacity: 0.7;">
             <img style="margin-left: 17px;
 width: 33px;
 height: 37px;" src="<?php echo base_url() ?>images/bag.gif">
@@ -527,26 +521,7 @@ jQuery(window).scroll(function () {
 
 
 
-        $('#subscribe_id').click(function () {
 
-          var email=  $('#footer_newsletter_email').val();
-
-            var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
-             if(regex.test(email)) {
-                $.ajax({
-                    url:'<?php echo base_url()?>home/subscribe',
-                    data:{email:email},
-                    type: "POST",
-                    success:function (result) {
-
-                        $('#message_email_sub').html('<span class="text-success">Thank you for subscribe</span>');
-                    }
-                    
-                })
-             } else {
-                $('#message_email_sub').html('<span class="text-danger">Enter valid email</span>');
-             }
-        });
 
     });
 

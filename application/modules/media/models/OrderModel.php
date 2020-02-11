@@ -48,7 +48,7 @@ Class OrderModel extends CI_Model
 
    //$featured_image = get_product_meta($prod->product_id, 'featured_image');
   // $featured_image = get_media_path($featured_image);
-   //$link = base_url() . 'product/' . $prod->product_name;
+  $link = base_url().$med->media_path;
 
 
    $output .= '<tr>
@@ -58,7 +58,7 @@ Class OrderModel extends CI_Model
 		<img src="'.$med->media_path.'" width="50" height="50"/>
 		</td>
         <td>'. $med->media_title.'</td>
-        <td> <input id="url_'.$med->media_id.'"  style="width: 300px;display: inherit; class="form-control" value="'.base_url().'.'. $med->media_path.'"/>
+        <td> <input id="url_'.$med->media_id.'"  style="width: 300px;display: inherit; class="form-control" value="'.$link.'"/>
 			<button style="margin-left: 7px;"  id="'.$med->media_id .'" class="btn btn-success selectAllUrl">Copy text</button>
 
 		</td>
@@ -83,7 +83,6 @@ Class OrderModel extends CI_Model
   $output = '';
   $this->db->select("*");
   $this->db->like('media_title',$product ,'both');
-  $this->db->or_like('sku',$product ,'both');
   $this->db->from("media");
   $this->db->order_by("media_id", "DESC");
   $this->db->limit($limit, $start);
@@ -107,7 +106,7 @@ Class OrderModel extends CI_Model
 
    //$featured_image = get_product_meta($prod->product_id, 'featured_image');
    // $featured_image = get_media_path($featured_image);
-   //$link = base_url() . 'product/' . $prod->product_name;
+//$link = base_url() . 'product/' . $prod->product_name;
 
 
    $output .= '<tr>
@@ -117,7 +116,7 @@ Class OrderModel extends CI_Model
 		<img src="'.$med->media_path.'" width="50" height="50"/>
 		</td>
         <td>'. $med->media_title.'</td>
-        <td> <input id="url_'.$med->media_id.'"  style="width: 300px;display: inherit; class="form-control" value="'.base_url().'.'. $med->media_path.'"/>
+        <td> <input id="url_'.$med->media_id.'"  style="width: 300px;display: inherit; class="form-control" value="'.base_url(). $med->media_path.'"/>
 			<button style="margin-left: 7px;"  id="'.$med->media_id .'" class="btn btn-success selectAllUrl">Copy text</button>
 
 		</td>

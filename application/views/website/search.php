@@ -634,24 +634,7 @@
 </div>
 
 
-<div class="before-footer-wrap" >
-    <div class="col-full">
-        <div class="footer-social-icons">
-            <ul class="social-icons nav">
-                <li class="nav-item"><a class="sm-icon-label-link nav-link" href="#"><i class="fa fa-facebook"></i>
-                        Facebook</a></li>
-                <li class="nav-item"><a class="sm-icon-label-link nav-link" href="#"><i class="fa fa-twitter"></i>
-                        Twitter</a></li>
-                <li class="nav-item"><a class="sm-icon-label-link nav-link" href="#"><i class="fa fa-google-plus"></i>
-                        Google+</a></li>
-                <li class="nav-item"><a class="sm-icon-label-link nav-link" href="#"><i class="fa fa-vimeo-square"></i>
-                        Vimeo</a></li>
-                <li class="nav-item"><a class="sm-icon-label-link nav-link" href="https://bdeshishop.com/feed/"><i
-                            class="fa fa-rss"></i> RSS</a></li>
-            </ul>
-        </div>
-    </div><!-- /.col-full -->
-</div>
+
 
 <script>
     jQuery('.main_menu_toggle_show').hide();

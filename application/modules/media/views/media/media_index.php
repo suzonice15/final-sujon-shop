@@ -11,7 +11,7 @@
 
 			<div class="col-md-3 col-sm-6 col-xs-12 pull-right " style="text-align:right;">
 
-				<input type="text" name="media_title"  placeholder="Enter product name or Product code" id="search"   class="form-control md"       />
+				<input type="text" name="media_title"  placeholder="Enter product name or Product code" id="search"   class="form-control md"  />
 			</div>
 		</div>
 	</div>

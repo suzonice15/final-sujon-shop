@@ -199,8 +199,20 @@ class MediaController extends MX_Controller
 	{
 		$media = $this->input->post('media_id');
 		for ($i = 0; $i < sizeof($media); $i++) {
+			$pictureData = $this->MainModel->getSingleData('media_id', $media[$i], 'media', 'media_path');
+			$picture_path=$pictureData->media_path;
+			//print_r($picture_path);
+			if (file_exists($picture_path)) {
+				$thumb_image=thumb_image_delete($picture_path);
+				if(file_exists($thumb_image)){
+				unlink($thumb_image);
+			}
+				unlink($picture_path);
+
+			}
 			$result = $this->MainModel->deleteData('media_id', $media[$i], 'media');
 		}
+
 
 		if ($result) {
 

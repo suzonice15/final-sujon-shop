@@ -196,39 +196,8 @@
 				</ul>
 			</li>
 
-				<li hidden class="treeview">
-					<a href="#">
-						<i class="fa fa-dashboard"></i>
-						<span>Affiliate Program </span>
-					<span class="pull-right-container">
-			 <i class="fa fa-angle-left pull-right"></i>
-			 </span>
-
-					</a>
-					<ul class="treeview-menu">
-						<li><a href="<?php echo base_url(); ?>password-change">
-								<i class="fa fa-arrow-circle-o-right"></i> Password change request </a>
-						</li>
-						<li><a href="<?php echo base_url(); ?>all-payment-request">
-								<i class="fa fa-arrow-circle-o-right"></i> All Request </a>
-						</li>
-						<li><a href="<?php echo base_url(); ?>cookie-time-set">
-								<i class="fa fa-arrow-circle-o-right"></i>Cookie Time Set </a>
-						</li>
-						li><a href="<?php echo base_url(); ?>product-delivered-list">
-							<i class="fa fa-arrow-circle-o-right"></i>Product Delivered List</a></li>
-						<li><a href="<?php echo base_url(); ?>bill-closing">
-								<i class="fa fa-arrow-circle-o-right"></i>Bill Closing</a></li>
-						<li><a href="<?php echo base_url(); ?>set-closing-date">
-								<i class="fa fa-arrow-circle-o-right"></i>Set Closing Date</a>
-						</li>
-						    <li><a href="<?php echo base_url(); ?>affiliate-request">
-                                <i class="fa fa-arrow-circle-o-right"></i>All Affiliate Request</a>
-                        </li>
 
 
-					</ul>
-				</li>
 
 
 
@@ -245,6 +214,8 @@
 			<li><a href="<?php echo base_url(); ?>page-list"> <i class="fa fa-dashboard"></i> <span>Pages</span>
 				</a></li>
 
+				<li><a href="<?php echo base_url(); ?>ipaddress/IpController/index"> <i class="fa fa-dashboard"></i> <span>Visitors</span>
+					</a></li>
 
 
 

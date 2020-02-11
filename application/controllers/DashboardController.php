@@ -27,7 +27,7 @@ class DashboardController extends CI_Controller
         $new_order = $row->total_order;
         $data['new_order'] = $new_order;
         $today = date('Y-m-d');
-        $total_order_sql = "SELECT COUNT(order_id) as total_order_count FROM `order_data`  WHERE  order_status !='try' and  modified_time like '$today%'";
+        $total_order_sql = "SELECT COUNT(order_id) as total_order_count FROM `order_data`  WHERE  order_status !='try' and  created_time like '$today%'";
         $total_order_result = get_result($total_order_sql);
         foreach ($total_order_result as $row) ;
         $data['total_order_count'] = $row->total_order_count;

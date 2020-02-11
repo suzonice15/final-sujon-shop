@@ -23,6 +23,13 @@ function get_sku_code($product_id)
 		return $row->sku;
 	}
 }
+
+function thumb_image_delete($media_path){
+
+	$base_url = str_replace(array('.jpg', '.jpeg', '.png', '.gif', '.JPG', '.JPEG', '.PNG', '.GIF'), array('_thumb.jpg', '_thumb.jpeg', '_thumb.png', '_thumb.gif', '_thumb.JPG', '_thumb.JPEG', '_thumb.PNG', '_thumb.GIF'), $media_path);
+
+	 return  $base_url;
+}
 function getHomeProducts($data)
 {
 	$ci=get_instance();

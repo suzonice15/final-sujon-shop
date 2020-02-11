@@ -176,7 +176,7 @@ $summery = $prod_row->product_summary;
     .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li:hover,
     .dokan-dashboard .dokan-dash-sidebar ul.dokan-dashboard-menu li.dokan-common-links a:hover,
     .wcmp_regi_main .register p.woocomerce-FormRow input {
-        background-color: #138496;
+        background-color: #28A745;
     }
 
     .primary-navigation .nav .dropdown-menu,
@@ -185,7 +185,7 @@ $summery = $prod_row->product_summary;
     .primary-navigation .nav .yamm-fw > .dropdown-menu > li,
     .navbar-primary .nav .yamm-fw > .dropdown-menu > li,
     .top-bar .nav .show > .dropdown-menu {
-        border-top-color: #138496;
+        border-top-color: #28A745;
     }
 
     .widget_shopping_cart .buttons a:first-child:hover,
@@ -269,7 +269,7 @@ $summery = $prod_row->product_summary;
     .widget_techmarket_banner_widget .banner .banner-bg .caption .price,
     .single-product .accessories .accessories-product-total-price .accessories-add-all-to-cart .button,
     .wcmp_main_page .wcmp_main_holder .wcmp_dashboard_display_box h3 {
-        color: #138496;
+        color: #28A745;
     }
 
     .top-bar.top-bar-v4 .nav-item + .nav-item .nav-link::before,
@@ -301,7 +301,7 @@ $summery = $prod_row->product_summary;
     }
 
     .section-landscape-products-widget-carousel.product-widgets .section-header:after {
-        border-bottom-color: #138496;
+        border-bottom-color: #28A745;
     }
 
     .site-header.header-v4 .site-branding .cls-3,
@@ -374,26 +374,26 @@ $summery = $prod_row->product_summary;
     input[type="submit"].dokan-btn-theme:focus, a.dokan-btn-theme:focus, .dokan-btn-theme:focus,
     .section-product-carousel-with-featured-product.type-2 .section-title::before,
     .wcvendors-pro-dashboard-wrapper .wcv-grid nav.wcv-navigation ul li.active a:after {
-        border-color: #138496;
+        border-color: #28A745;
     }
 
     .slider-sm-btn,
     .slider-sm-btn:hover {
-        border-color: #138496 !important;
+        border-color: #28A745 !important;
     }
 
     .slider-sm-btn {
-        color: #138496 !important;
+        color: #28A745 !important;
     }
 
     .slider-sm-btn:hover,
     .wcmp_main_page .wcmp_main_holder .wcmp_vendor_dashboard_content .action_div .wcmp_orange_btn {
-        background-color: #138496 !important;
+        background-color: #28A745 !important;
     }
 
     @media (max-width: 1023px) {
         .single_product_shopno .shop-control-bar {
-            background-color: #138496;
+            background-color: #28A745;
             margin-top: 86px;
 
             width: 87%;
@@ -512,7 +512,7 @@ $summery = $prod_row->product_summary;
         }
 
         .shop-control-bar {
-            background-color: #138496 !important;
+            background-color: #28A745 !important;
             margin-top: 86px;
             width: 118% !important;
             margin-left: -207px !important;
@@ -553,7 +553,7 @@ $summery = $prod_row->product_summary;
         }
 
         .single_product_shopno .shop-control-bar {
-            background-color: #138496;
+            background-color: #28A745;
             margin-top: 89px;
             margin-left: -378px;
             margin-right: -11px;
@@ -624,7 +624,7 @@ margin-left: -34px;"
                                                 class="woocommerce-product-gallery woocommerce-product-gallery--with-images woocommerce-product-gallery--columns-4 images"
                                                 data-columns="4"
                                                 style="opacity: 1; transition: opacity 0.25s ease-in-out 0s;">
-                                                <figure style="border: 2px solid #138496;height: 394px !important;"
+                                                <figure style="border: 2px solid #28A745;height: 394px !important;"
                                                         class="woocommerce-product-gallery__wrapper slick-initialized slick-slider">
                                                     <div aria-live="polite" class="slick-list draggable">
                                                         <div class="slick-track"
@@ -765,7 +765,7 @@ margin-left: -34px;"
                                         </div>
                                     </div>
                                 </div><!-- /.product-images-wrapper -->
-                                <div class="summary entry-summary" style="border: 2px solid #138496;padding: 5px 19px;">
+                                <div class="summary entry-summary" style="border: 2px solid #28A745;padding: 5px 19px;">
                                     <div class="single-product-header">
                                         <h4 class="product_title entry-title"><?= $product_title ?></h4>
                                         <div class="clear"></div>
@@ -801,7 +801,7 @@ margin-left: -34px;"
                                 }
                                 ?>
                             </del>
-                            <span style="color:#138496;font-size: 20px"> <?= formatted_price($sell_price) ?></span>
+                            <span style="color:#28A745;font-size: 20px"> <?= formatted_price($sell_price) ?></span>
 </span>
                                             </p>
 
@@ -819,19 +819,19 @@ margin-left: -34px;"
                                             <form class="cart" method="post" enctype="multipart/form-data">
                                                 <div id="Quantity">
                                                     <span
-                                                        style="float: left;/*! margin-top: 5px; */border: 1px solid #138496;padding: 5px;width: 54px;text-align: center;height: 36px;margin-right: -5px;border-right: none;color: #138496;">Qty</span>
+                                                        style="float: left;/*! margin-top: 5px; */border: 1px solid #28A745;padding: 5px;width: 54px;text-align: center;height: 36px;margin-right: -5px;border-right: none;color: #28A745;">Qty</span>
 
                                                     <div
                                                         style="float: left; border: solid 1px #24b193; width: 150px; height: 36px;margin-left:5px">
                                                         <div class="quantity-left-minus"
-                                                             style="margin-top: -3px;color:#138496;font-size: 25px;text-align: center; width: 50px; float: left; cursor: pointer;font-weight: bold;">
+                                                             style="margin-top: -3px;color:#28A745;font-size: 25px;text-align: center; width: 50px; float: left; cursor: pointer;font-weight: bold;">
                                                             -
                                                         </div>
                                                 <span
-                                                    style="font-size: 23px;text-align: center;color: #138496; width: 50px; float: left; cursor: pointer;border-right: 1px solid #24b193;border-left: 1px solid #24b193;font-weight: bold;"
+                                                    style="font-size: 23px;text-align: center;color: #28A745; width: 50px; float: left; cursor: pointer;border-right: 1px solid #24b193;border-left: 1px solid #24b193;font-weight: bold;"
                                                     id="product_qty">1</span>
 
-                                                        <div class="quantity-right-plus" style="margin-top: -3px;font-weight: bold;color:#138496;font-size: 25px;text-align: center; width: 40px; float: left;
+                                                        <div class="quantity-right-plus" style="margin-top: -3px;font-weight: bold;color:#28A745;font-size: 25px;text-align: center; width: 40px; float: left;
                                                              cursor: pointer;">
                                                             +
                                                         </div>
@@ -1066,7 +1066,7 @@ display: inline-flex;">
                                             data-product_price="<?= $sell_price ?>"
                                             data-product_title="<?= $prod_row->product_title ?>"
                                             class="button product_type_simple add_to_cart_button ajax_add_to_cart buy_now"
-                                            style="margin-top: 32px;background-color: #138496;width:53%;color:white">Buy
+                                            style="margin-top: 32px;background-color: #28A745;width:53%;color:white">Buy
                                         Now
                                     </button>
 
@@ -1096,7 +1096,7 @@ display: inline-flex;">
                                                     data-product_price="<?= $sell_price ?>"
                                                     data-product_title="<?= $prod_row->product_title ?>"
                                                     class="button product_type_simple add_to_cart_button ajax_add_to_cart add_to_cart"
-                                                    style="margin-top: 15px;background-color: #138496;width:53%;;color:white">
+                                                    style="margin-top: 15px;background-color: #28A745;width:53%;;color:white">
                                                 Add to
                                                 Cart
                                             </button>
@@ -1127,7 +1127,7 @@ display: inline-flex;">
                         <div class="col-md-12">
 
 
-                            <h1 style="background-color: #138496;padding: 5px 19px;font-size: 24px;color:white">
+                            <h1 style="background-color: #28A745;padding: 5px 19px;font-size: 24px;color:white">
                                 Description</h1>
                             <br>
 
